@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+/* This is how you make a comment in css*/
+
+header, section, footer, nav, article {
+	display: block;}
+	
+body {
+	background-color: #ffffff;
+	background-image: url("/img/MastheadBanner.jpg");
+		background-position: center top;
+	background-size: contain;
+	margin: 0px;
+	
+}
+
+.wrapper {
+	width: 960px;
+	margin: 118px auto -20px auto;
+	padding: 0px;
+	-moz-box-shadow: 0 0 10px #777777;
+	-webkit-box-shadow: 0 0 10px #777777;
+	box-shadow: 0 0 10px #777777;
+	
+}
+
+
+nav {
+	
+	color: #dbdbdb;
+	background-color: #4f2e8d;
+	height: 30px;
+	width: 960px;
+	
+	
+
+}
+nav ul {
+	
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+}
+nav li {
+	display: inline;
+}
+nav li a {
+	color: #ffffff;
+	height: 30px;	
+	padding: 0px 36px 0px 36px;
+}
+nav li a:hover, nav li a.current {
+	color: #698fff;
+}
+
+main {
+	background-color: ffffff;
+}
+article {
+	margin: 20px auto 20px auto;
+	overflow: auto;
+	width: 88%;
+	
+}
+h1 {
+    font-size: 46px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 20px;
+}
+h1, h2, h3 {
+    font-variant: small-caps;
+    font-family: Gabriola, Lucida, oldstyle;
+    color: #4d0e93;
+	line height: .5em;
+}
+h4, h5 {
+    font-family: Gabriola, Lucida, oldstyle;
+    color: #4d0e93;
+	line-height: .5em;
+}
+h6 {
+    font-family: Calibri, Times, Serif;
+	font-size: 18px;
+	color: #dbdbdb;
+	background-color: #4d0e93;
+	word-spacing: 1em;
+	text-align: center;
+	
+}
+p {
+    font-family: Calibri;
+    font-size: 16px;
+	line-height: 1.5em;
+}
+footer {
+	background-image: url("/img/MastheadBanner.jpg");
+	background-repeat: repeat-x;
+	padding: 20px 0px 0px 20px;
+	height: 100px;
+	color: #ffffff;
+}
+
+
+footer a {
+	color: #ffffff;
+	height: 12px;	
+	float: right;
+	padding: 10px 12px 0px 12px;
+}
+
+

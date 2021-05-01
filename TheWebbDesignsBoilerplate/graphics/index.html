@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Graphics</title>
+        
+    <meta name="author" content="Chearsten Webb">
+    <meta name="description" content="This page will show logos graphics and branding that I have created.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="touch-icon" href="touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+		
+    <link rel="stylesheet" href="/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="/css/graphics.css">
+	    
+		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script>	
+		$(document).ready(function() {
+		setInterval(rotateImages, 4000);
+		});
+
+		function rotateImages(){
+		var curPhoto = $("#photoShow div.current");
+		var nxtPhoto = curPhoto.next();
+  
+		if(nxtPhoto.length == 0){
+		nxtPhoto = $("#photoShow div:first"); 
+		}
+  
+		curPhoto.removeClass("current").addClass("previous");
+		nxtPhoto.css({opacity: 0.0}).addClass("current").animate({opacity: 1.0}, 1000,
+                                                           
+		function(){
+		curPhoto.removeClass("previous");
+		});
+		}
+		</script>
+		
+		<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+		</script>	
+		
+</head>
+ <body>
+        <!--[if lt IE 8]>1
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+	
+	<div class="wrapper">
+	<header>
+	
+	<div id="banner">					
+   	<img src="/img/TheWebbDesignsLD.jpg" alt="The Webb Designs Logo"/>
+	</div>
+
+    <nav>
+	<ul class="topnav" id="myTopnav">
+					<li><a href="http://thewebbdesigns.com/">Home</a></li>
+					<li><a href="http://thewebbdesigns.com/about/">About</a></li>
+					<li><a href="http://thewebbdesigns.com/graphics/" class="current">Graphics</a></li>
+					<li><a href="http://thewebbdesigns.com/webservices/">Web Services</a></li>
+					<li><a href="http://thewebbdesigns.com/blog/">Blog</a></li>
+					<li><a href="http://thewebbdesigns.com/contact/">Contact</a></li>
+					<li class="icon">
+					<a href="javascript:void(0);" onclick="myFunction()">☰</a>
+				</li>
+				</ul>
+			</nav>
+		</header>
+	<main>	
+		<article>
+			<h1>Graphics</h1>
+			<p>Here is a selection of graphics created by The Webb Designs.</p>
+			
+			<div class="entry">
+			<figure><img src="/img/graphics/StudiosLogo.png " alt="MW Studios" />
+				<figcaption>Music Film Home Studio Logo</figcaption>
+			</figure>
+			</div>
+			<div class="entry">
+			<figure><img src="/img/graphics/GAFCCA.png " alt="GAFCCA Association" />
+				<figcaption>Child Care Association Logo</figcaption>
+			</figure>
+			</div>
+			<div class="entry">
+			<figure><img src="/img/graphics/ChearCare.png " alt="Chear Care" />
+				<figcaption>Home Child Care Logo</figcaption>
+			</figure>
+			</div>
+			
+			<div class="entry">
+			<figure><img src="/img/graphics/Head2HeadNetworks.png " alt="Head2Head Networks" />
+				<figcaption>IT Local Assistance Logo</figcaption>
+			</figure>
+			</div>
+			<div class="entry">
+			<figure><img src="/img/graphics/TroglodyteShieldGrey.png " alt="Troglodyte Productions" />
+				<figcaption>Short Film Productions Logo</figcaption>
+			</figure>
+			</div>
+			<div class="entry">
+			<figure><img src="/img/graphics/FreshStartHomes.png " alt="Home Remodeling" />
+				<figcaption>Home Remodeling Logo</figcaption>
+			</figure>
+			</div>		
+		</article>
+		
+	<div id="photoShow">
+		<div class="current">
+		<img src="/img/graphics/StudiosLogo.jpg" style="width:375px;border:0"/>
+		</div>
+  
+		<div>
+		<img src="/img/graphics/GAFCCA.jpg" style="width:375px;border:0"/>
+		</div>
+  
+		<div>
+		<img src="/img/graphics/ChearCare.jpg" style="width:375px;border:0"/>
+		</div>
+		
+		<div>
+		<img src="/img/graphics/TroglodyteShieldGrey.jpg" style="width:375px;border:0"/>
+		</div>
+		
+		<div>
+		<img src="/img/graphics/Head2HeadNetworks.jpg" style="width:375px;border:0"/>
+		</div>
+	</div>
+	
+
+	
+	</main>
+	
+		<footer>
+		
+	
+		<a href="https://www.behance.net/thewebbdes594f" target="_blank"><img src="/img/Behance.png" alt="Behance" style="height:22px;border:0"/></a>
+		<a href="https://www.instagram.com/thewebbdesign/" target="_blank"><img src="/img/Instagram1.png" alt="Instagram" style="height:22px;border:0"/></a>
+		<a href="https://twitter.com/TheWebbDesigns" target="_blank"><img src="/img/Twitter1.png" alt="Twitter" style="height:22px;border:0"/></a>
+		<a href="https://www.facebook.com/thewebbdesigns" target="_blank"><img src="/img/Facebook1.png" alt="Facebook" style="height:24px;border:0"/></a>
+		<a href="https://thewebbdesign.wordpress.com" target="_blank"><img src="/img/Wordpress1.png" alt="Wordpress" style="height:24px;border:0"></a>
+		
+			
+		<p>&copy; 2016 The Webb Designs</p>
+		
+    </footer>
+    </div> <!-- .wrapper -->	
+	
+	
+		
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-88342742-1','auto');ga('send','pageview');
+        </script>
+
+		
+
+    </body>
+</html>
