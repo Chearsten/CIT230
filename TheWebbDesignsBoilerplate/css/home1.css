@@ -200,7 +200,7 @@ p {
 }
 footer {
 	clear:both;
-	background-image: url("/img/MastheadBanner.jpg");
+	background-image: url("img/MastheadBanner.jpg");
 	background-repeat: repeat-x;
 	padding: 20px 0px 0px 20px;
 	height: 100px;
