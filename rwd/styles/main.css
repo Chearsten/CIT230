@@ -1,0 +1,102 @@
+#wrapper {width: 96%;max-width: 920px;margin: auto;padding: 2%;} 
+main {width: 60%;margin-right: 5%;float: left;} 
+aside {width: 35%;float: right;}
+
+header h1 {
+height: 70px;
+float: left;
+display: block;
+}
+
+header nav {
+float: right; 
+clear:both; 
+width: 100%;
+}
+header nav li {
+display: inline;
+margin-left: 15px;
+}
+
+#banner {float: left;margin-bottom: 15px;width: 100%;}
+#banner img {width: 100%;}
+
+/* #jump {display: none;}
+    #jump li {background: #eee;} */
+	
+body {margin:0;}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width: 900px){
+    nav{
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-right: 0;
+    margin-top: -20px;
+    background-color: #333;
+    height: 70px;
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: Left;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:480px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}	
+ main{width: 100%;}
+ aside{width: 100%;}
+    
+}	
+#banner {float: left;margin-bottom: 15px;width: 100%;}
+	#banner img {width: 100%;}
+
+footer {
+    clear: both;
+    border-top: 1px solid #bbb;
+    padding-top: 7px;
+    font-weight: 700;
+    font-size: .80em;
+}

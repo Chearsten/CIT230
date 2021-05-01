@@ -1,0 +1,87 @@
+body{
+    margin: auto;
+    max-width: 1024px;
+}
+#page-container{
+    width: 1024px;
+}
+header{
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: #555555;
+    }
+nav ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3b5998;
+    height: 50px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 15px;
+}
+nav li a {
+    display: inline;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav li a:hover {
+    background-color: #8b9dc3;
+    color: #000000;
+}
+.menu-right{
+    float: right;
+}
+.column1, .column2, .column3{
+    float:left;  
+}
+.column1{
+    width: 20%;
+    margin: 0px 15px 0px 15px;
+    padding: 8px;
+    text-align: center;
+    background-color: #eeeeee;
+}
+.column2{
+    width: 44%;
+    
+}
+.column3{
+    width: 24%;
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    margin: 35px 25px;
+    text-align: center;
+    background: #eeeeee; 
+    background: radial-gradient( #8b9dc3 -100%, white 120%);
+    
+  
+}
+.myCode{
+    background-color: white;
+    border: 1px solid #eeeeee;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+}
+footer{
+    height: 50px;
+    background-color:#3b5998;
+    clear: both;
+    color: white;
+}
+footer p {
+    vertical-align:middle;
+    padding:20px;
+    text-align: center;
+}
+    
+    

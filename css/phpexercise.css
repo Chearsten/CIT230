@@ -1,0 +1,136 @@
+
+* {
+        font-family: Ubuntu, Consolas, monospace, sans-serif;
+            font-weight: normal;
+
+}
+
+body {
+    background-color: #d6caf5;
+    
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+a {
+    color: #3282e6;
+    text-decoration: none;
+}
+
+#wrapper {
+    margin: 0px auto;
+    text-align: center;
+    width: 85%;
+}
+
+header {
+    color: #333;
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+    header date {
+        float: right;
+        color: #000;
+        padding-right: 15px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+
+main {
+    padding: 7px;
+    background: radial-gradient(circle, #8396fa, white);
+    color: #222;
+    text-align: center;
+    overflow: auto;
+}
+
+    main img.icon {
+        width: 65px;
+        height: auto;
+        margin: 5px;
+    }
+
+section {
+    margin: 2px auto;
+    border: 1px solid #bbb;
+    padding: 7px;
+    background-color: #eee;
+    color: #333;
+    white-space: unset;
+    word-wrap: break-word;
+}
+
+table {
+    margin: 5px auto;
+    border: 1px solid #eee;
+}
+
+    th, td {
+        padding: 5px;
+        border: 1px solid #bbb;
+        text-align: center;
+    }
+
+    th {
+        background-color: #777;
+        color: #eee;
+        font-size:larger;
+        font-weight:700;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #ddd;
+    }
+
+    td:nth-child(1) {  
+        text-align: right;
+    }
+
+section ul {
+    margin-bottom: 0px;
+}
+
+section li {
+    list-style-type: none;
+}
+
+footer {
+    color: #000;
+    padding-top: 10px;
+    text-align: center;
+    font-size: smaller;
+    letter-spacing: 1.6pt;
+    clear: both;
+}
+
+
+
+date {
+    font-family: Consolas, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-stretch: semi-condensed;
+    display: inline-table;
+}
+
+
+
+.date {
+    font-size: .9em;
+    color: purple;
+    margin: 10px 0px;
+}
+
+
+
